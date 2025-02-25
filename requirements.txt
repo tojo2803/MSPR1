@@ -1,0 +1,5 @@
+installation variable d'environement venv: python -m venv venv
+avtiver le  variable d'environement : source venv/bin/activate
+installation dependances neccessaire: pip install fastapi uvicorn sqlalchemy pydantic psycopg2
+lancer l'application avec FastAPI: uvicorn app.main:app --reload (doit être executer dans le dossier VIH_ap)
+
